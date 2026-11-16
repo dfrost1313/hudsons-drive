@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#8ecae6">
+  <meta name="description" content="A calm motorcycle game for Hudson. Five animals, no timers, and no fail states.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Drive & Discover">
+  <title>Hudson's Drive &amp; Discover</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body data-state="title">
+  <canvas id="scene" aria-hidden="true"></canvas>
+
+  <button id="parent-entry" type="button" aria-label="Grown-ups. Press and hold.">
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="32" cy="32" r="28" fill="#fff8ef" stroke="#3a2e28" stroke-width="4"/>
+      <circle cx="26" cy="28" r="8" fill="none" stroke="#3a2e28" stroke-width="4"/>
+      <path d="M32 28h16v6h-5v5h-6v-5h-5z" fill="#3a2e28"/>
+    </svg>
+  </button>
+
+  <section id="title">
+    <h1>Hudson's Drive &amp; Discover</h1>
+    <button id="start" type="button" aria-label="Tap to start">
+      <span class="start-ring" aria-hidden="true"></span>
+      <span class="start-label">Tap to start</span>
+    </button>
+  </section>
+
+  <button id="go" type="button" hidden aria-label="Go">
+    <svg viewBox="0 0 100 100" aria-hidden="true">
+      <polygon points="32,22 78,50 32,78" fill="#fff"/>
+    </svg>
+  </button>
+
+  <div id="hero" hidden></div>
+  <div id="choices" hidden></div>
+  <div id="sparkles" aria-hidden="true"></div>
+
+  <section id="end" hidden>
+    <div class="sticker" id="sticker"></div>
+    <button id="again" type="button">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 18 a32 32 0 1 1 -22 10" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+        <polygon points="24,18 46,14 32,36" fill="#fff"/>
+      </svg>
+      <span>Play again</span>
+    </button>
+  </section>
+
+  <section id="gate" hidden>
+    <button id="gate-back" type="button" class="x" aria-label="Back">×</button>
+    <p class="sum" aria-label="4 plus 3"><span>4</span><span>+</span><span>3</span></p>
+    <div id="numbers"></div>
+  </section>
+
+  <section id="parent" hidden>
+    <header class="parent-bar">
+      <h2>Grown-ups</h2>
+      <button id="parent-close" type="button" class="x" aria-label="Close">×</button>
+    </header>
+    <div class="parent-body">
+      <div class="parent-side">
+        <button id="mute" type="button" aria-pressed="false">
+          <svg viewBox="0 0 64 64" aria-hidden="true" id="mute-icon"></svg>
+          <span id="mute-label">Sound on</span>
+        </button>
+        <div class="howto">
+          <p>Hold the big green button to drive. The motorcycle stops at each animal. Tap the picture that matches.</p>
+          <p>A wrong picture wiggles, then the right one pulses, then it stays lit until it is tapped. Nothing is timed or scored. At the end, tap Play again.</p>
+          <p>Voice lines are files named in audio/voice/manifest.json. An empty line stays quiet. To use a family recording, add the mp3 and put its filename on that line. A file for you_got_it is played instead of sounds_good.</p>
+        </div>
+      </div>
+      <div id="credits" class="credits"></div>
+    </div>
+  </section>
+
+  <script src="js/art.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
