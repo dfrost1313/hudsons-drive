@@ -1,0 +1,13 @@
+{
+  "what_animal": "",
+  "you_got_it": "",
+  "try_again": "try_again.mp3",
+  "sounds_good": "sounds_good.mp3",
+  "lets_go": "lets_go.mp3",
+  "all_done": "all_done.mp3",
+  "cow": "cow.mp3",
+  "dog": "dog.mp3",
+  "cat": "cat.mp3",
+  "duck": "duck.mp3",
+  "horse": "horse.mp3"
+}

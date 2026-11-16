@@ -1,0 +1,191 @@
+{
+  "clips": [
+    {
+      "id": "tap",
+      "file": "audio/sfx/tap.mp3",
+      "group": "Sounds",
+      "title": "Classic click",
+      "creator": "Mixkit",
+      "sourceUrl": "https://mixkit.co/free-sound-effects/classic-click-1117/",
+      "license": "Mixkit Sound Effects Free License",
+      "licenseUrl": "https://mixkit.co/license/#sfxFree",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "chime",
+      "file": "audio/sfx/chime.mp3",
+      "group": "Sounds",
+      "title": "Achievement bell",
+      "creator": "Mixkit",
+      "sourceUrl": "https://mixkit.co/free-sound-effects/achievement-bell-600/",
+      "license": "Mixkit Sound Effects Free License",
+      "licenseUrl": "https://mixkit.co/license/#sfxFree",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "engine",
+      "file": "audio/sfx/engine.mp3",
+      "group": "Sounds",
+      "title": "Motorcycle engine working",
+      "creator": "Mixkit",
+      "sourceUrl": "https://mixkit.co/free-sound-effects/motorcycle-engine-working-2721/",
+      "license": "Mixkit Sound Effects Free License",
+      "licenseUrl": "https://mixkit.co/license/#sfxFree",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "moo",
+      "file": "audio/animals/moo.mp3",
+      "group": "Animal sounds",
+      "title": "Cow moo",
+      "creator": "Mixkit",
+      "sourceUrl": "https://mixkit.co/free-sound-effects/cow-moo-1744/",
+      "license": "Mixkit Sound Effects Free License",
+      "licenseUrl": "https://mixkit.co/license/#sfxFree",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "bark",
+      "file": "audio/animals/bark.mp3",
+      "group": "Animal sounds",
+      "title": "Dog barking twice",
+      "creator": "Mixkit",
+      "sourceUrl": "https://mixkit.co/free-sound-effects/dog-barking-twice-1/",
+      "license": "Mixkit Sound Effects Free License",
+      "licenseUrl": "https://mixkit.co/license/#sfxFree",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "meow",
+      "file": "audio/animals/meow.mp3",
+      "group": "Animal sounds",
+      "title": "Sweet kitty meow",
+      "creator": "Mixkit",
+      "sourceUrl": "https://mixkit.co/free-sound-effects/sweet-kitty-meow-93/",
+      "license": "Mixkit Sound Effects Free License",
+      "licenseUrl": "https://mixkit.co/license/#sfxFree",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "quack",
+      "file": "audio/animals/quack.mp3",
+      "group": "Animal sounds",
+      "title": "Duck Quacking Twice",
+      "creator": "OwennewO",
+      "sourceUrl": "https://freesound.org/people/OwennewO/sounds/719109/",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "neigh",
+      "file": "audio/animals/neigh.mp3",
+      "group": "Animal sounds",
+      "title": "A sounding recording of a neighing horse",
+      "creator": "Hü",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg",
+      "license": "Public domain (PD-self)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "cow",
+      "file": "audio/voice/cow.mp3",
+      "group": "Voice",
+      "title": "Spoken word: cow",
+      "creator": "Grendelkhan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-cow.wav",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "dog",
+      "file": "audio/voice/dog.mp3",
+      "group": "Voice",
+      "title": "Spoken word: dog",
+      "creator": "Grendelkhan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-dog.wav",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "cat",
+      "file": "audio/voice/cat.mp3",
+      "group": "Voice",
+      "title": "Spoken word: cat",
+      "creator": "Grendelkhan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-cat.wav",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "duck",
+      "file": "audio/voice/duck.mp3",
+      "group": "Voice",
+      "title": "Spoken word: duck",
+      "creator": "Grendelkhan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-duck.wav",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "horse",
+      "file": "audio/voice/horse.mp3",
+      "group": "Voice",
+      "title": "Spoken word: horse",
+      "creator": "Grendelkhan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-horse.wav",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "lets_go",
+      "file": "audio/voice/lets_go.mp3",
+      "group": "Voice",
+      "title": "Spoken line: Let's go!",
+      "creator": "duducsepel",
+      "sourceUrl": "https://freesound.org/people/duducsepel/sounds/761799/",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "sounds_good",
+      "file": "audio/voice/sounds_good.mp3",
+      "group": "Voice",
+      "title": "Spoken line: Sounds good.",
+      "creator": "duducsepel",
+      "sourceUrl": "https://freesound.org/people/duducsepel/sounds/761806/",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "all_done",
+      "file": "audio/voice/all_done.mp3",
+      "group": "Voice",
+      "title": "Spoken line: All done.",
+      "creator": "duducsepel",
+      "sourceUrl": "https://freesound.org/people/duducsepel/sounds/761794/",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    },
+    {
+      "id": "try_again",
+      "file": "audio/voice/try_again.mp3",
+      "group": "Voice",
+      "title": "Spoken line: Try again.",
+      "creator": "Sadiquecat",
+      "sourceUrl": "https://freesound.org/people/Sadiquecat/sounds/818215/",
+      "license": "CC0 1.0 Universal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadDate": "2026-11-15"
+    }
+  ]
+}
